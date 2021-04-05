@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3f3f3f;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+.logo{
+    color: #00e9a5;
+    box-shadow: 5px 10px 30px rgba(0,255,128,0.4);
+}
+a{
+    text-decoration: none;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #3f3f3f;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-family: 'Open Sans', sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 17px;
+    display: flex;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.6s ease;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #00e9a5;
+    box-shadow: 5px 10px 30px rgba(0,255,128,0.4);
+}
+.active{
+    border-bottom: 2px solid #00e9a5;
+    box-shadow: 5px 10px 30px rgba(0,255,128,0.4);
+}
+
+/* Header */
+#header{
+    width: 100%;
+    height: 690px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-image: url(images/bg-header.jpg);
+}
+.header-heading{
+    width: 700px;
+    position: absolute;
+    left: 17%;
+    top: 50%;
+    color: #fff;
+    transform: translate(-17%,-50%);
+}
+.header-heading h1{
+    font-size: 59px;
+    margin: 0px;
+    letter-spacing: 3px;
+}
+.header-heading h1 span{
+    color:#00e9a5;
+}
+
+/* About */
+#about{
+    width: 100%;
+    height: 110vh;
+    background-color: #1e1e1e;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+}
+
+.about-img{
+    width: 10%;
+     color: #00e9a5;
+    box-shadow: 4px 13px 40px rgba(0,255,128,0.4);
+}
+.about-img img{
+    width: 350px;
+}
+.about-Bio{
+    width: 45%;
+    color: #fff;
+}
+.about-Bio h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.about-Bio h2 span{
+    color: #00e9a5;
+}
+.about-Bio table{
+    width: 480px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Jadwal */
+#jadwal{
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.jadwal-heading{
+    text-align: center;
+    color: #fff;
+    margin: 20px 0px;
+}
+.jadwal-heading h1{
+    font-size: 2.5rem;
+}
+.jadwal-heading p{
+    color: #e2e2e2;
+}
+
+#jadwal table{
+    align-items: center;
+    width: 70%;
+    background: white;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* Footer */
+#footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    background: #1e1e1e;
+}
+#footer span{
+    color: floralwhite;
+}
